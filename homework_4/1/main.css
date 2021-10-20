@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1000px;
+    border: 5px solid #5b6e6e;
+    padding: 5px;
+    border-radius: 8px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.header {
+    height: 150px;
+    background: #075757;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    margin-top: 5px;
+    display: flex;
+}
+
+.main_b, .main_c {
+    background: #075757;
+    height: 400px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_c {
+    flex-grow: 1;
+    margin-left: 5px;
+}
